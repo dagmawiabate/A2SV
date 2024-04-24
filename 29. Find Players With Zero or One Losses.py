@@ -1,5 +1,5 @@
 class Solution:
-  def find_players(self, matches: List[List[int]]) -> List[List[int]]:
+  def findWinners(self, matches: List[List[int]]) -> List[List[int]]:
     # Initialize dictionaries to track wins and losses for each player
     wins = {}
     losses = {}
